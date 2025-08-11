@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: rock;
+    src: url(DeathRockRegular.ttf) format(truetype);
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    color: white;
+    font-family: cursive;
+}
+
+header>div.texto1>h1{
+    color: rgba(146, 0, 0, 0.849);
+    font-family: 'rock';
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+div.texto1>h2{
+    text-align: center;
+}
+
+
+.foto img{
+    width: 100vw;
+}
+
+header > nav {
+    background-color: rgba(146, 0, 0, 0.849);
+    padding: 10px;
+    border-radius: 8px;
+}
+header>nav>a{
+    color: black;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+main>div.proxshw{
+    font-family: rock;
+    color: rgb(133, 128, 128);
+    font-size: 2.5em;
+    padding: 10px;
+}
+div.proxshw > h2{
+    background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
+    width: 400px;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+
+
