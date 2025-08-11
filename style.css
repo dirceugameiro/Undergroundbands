@@ -61,3 +61,15 @@ div.proxshw > h2{
 
 
 
+div.lista > ul > li{
+    color: white;
+    margin-left: 40px;
+}
+
+div.lista{
+    border: 1px solid grey;
+    max-width: 350px;
+    background-color: rgba(184, 182, 182, 0.205);
+    font-family: cursive;
+    margin-left: 50px;
+}
