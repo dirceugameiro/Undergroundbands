@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+
+
 @font-face {
     font-family: rock;
     src: url(DeathRockRegular.ttf) format(truetype);
@@ -55,7 +57,7 @@ main>div.proxshw{
 div.proxshw > h2{
     background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
     width: 400px;
-    margin-left: 5px;
+    margin-left: 20px;
     padding: 20px;
 }
 
@@ -64,12 +66,45 @@ div.proxshw > h2{
 div.lista > ul > li{
     color: white;
     margin-left: 40px;
+    margin-top: 30px;
 }
 
 div.lista{
     border: 1px solid grey;
-    max-width: 350px;
+    max-width: 330px;
     background-color: rgba(184, 182, 182, 0.205);
     font-family: cursive;
     margin-left: 50px;
+    height: 300px;
+    
+}
+
+section.ladoagenda{
+    display: block;
+    margin: auto;
+}
+section.ladoagenda{
+    width: 50vw;
+    position: relative;
+    display: block;
+}
+section.ladoagenda > div.divulgacoes{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.ladoagenda > div.divulgacoes2{
+    position: absolute;
+    margin-top: 300px;
+    left: 100px;
+}
+
+section.ultimoslancamentos > h2{
+     background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px;
 }
