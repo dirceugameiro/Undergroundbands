@@ -1,25 +1,41 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
 
 @font-face {
     font-family: rock;
     src: url(DeathRockRegular.ttf) format(truetype);
 }
 
-body{
+body {
     background-color: black;
-}
-
-header{
     color: white;
     font-family: cursive;
 }
 
-header>div.texto1>h1{
+/* ===== HEADER ===== */
+header > nav {
+    background-image: radial-gradient(rgba(146, 0, 0, 0.685), rgba(189, 0, 0, 0.685), rgba(37, 0, 0, 0.685));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(44, 44, 44, 0.541);
+    text-align: center;
+}
+
+header > nav > a {
+    color: #cccccc;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header > nav > a:hover {
+    color: #ff3333;
+}
+
+header > .texto1 > h1 {
     color: rgba(146, 0, 0, 0.849);
     font-family: 'rock';
     text-align: center;
@@ -28,158 +44,93 @@ header>div.texto1>h1{
     font-weight: bolder;
 }
 
-div.texto1>h2{
+header > .texto1 > h2 {
     text-align: center;
 }
 
-main {
-    display: flex;
-    flex-direction: column; /* lado a lado */
-    align-items: flex-start; /* centraliza verticalmente */
-    justify-content: flex-start; /* começa do lado esquerdo */
-    gap: 40px; /* espaço entre listas e imagens */
+.foto img {
+    width: 100%;
+    display: block;
 }
 
+/* ===== MAIN LAYOUT ===== */
+main.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 300px;
+    padding: 40px 20px;
+}
 
-section.ladoagenda{
+.esquerdinha {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 400px;
-
+    gap: 20px;
 }
 
-
-
-section.ladoagenda > div.divulgacoes{
-    margin-top: -100vh;
-    
-
-}
-section.ladoagenda > div.divulgacoes2{
-    margin-top: -40vh;
-}
-
-.foto img{
-    width: 100%;
-}
-
-header > nav {
-    background-image: radial-gradient( rgba(146, 0, 0, 0.685), rgba(189, 0, 0, 0.685), rgba(37, 0, 0, 0.685));
+.proxshw h2,
+.ultimoslancamentos h2 {
+    background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px rgba(44, 44, 44, 0.541);
-    text-align: center;
-}
-header>nav>a{
-    color: #cccccc;
-    margin-right: 40px;
-    margin-left: 20px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-header > nav > a:hover{
-    color: #ff3333;;
-}
-
-main>div.proxshw{
     font-family: rock;
     color: rgb(133, 128, 128);
-    font-size: 2.5em;
-    padding: 10px;
-}
-div.proxshw > h2{
-    background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
-    width: 400px;
-    margin-left: 20px;
-    padding: 20px;
 }
 
-
-
-div.lista > ul > li{
-    color: white;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-div.lista{
+.lista,
+.lancamentoslist {
     border: 1px solid grey;
     border-radius: 2px;
-    max-width: 330px;
     background-color: rgba(184, 182, 182, 0.205);
-    font-family: cursive;
-    margin-left: 50px;
-    height: 300px;
     box-shadow: 2px 2px 8px rgba(116, 0, 0, 0.411);
-    display: block;
     padding: 20px;
-    
-}
-
-
-
-
-.ultimoslancamentos > h2{
-     background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
-    width: 400px;
-    margin-left: 30px;
-    padding: 20px;
-    margin-top: 40px;
-    font-family: 'rock';
-    color: rgb(133, 128, 128);
-
-}
-
-.lancamentoslist > ul > li{
-    color: white ;
-     color: white;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-.lancamentoslist{
-    border-radius: 2px;
-    border: 1px solid grey;
     max-width: 330px;
-    font-family: cursive;
-    background-color: rgba(184, 182, 182, 0.205);
-     margin-left: 50px;
-     height: 300px;
-     margin-top: 20px;
-     box-shadow: 2px 2px 8px rgba(116, 0, 0, 0.411);
-     padding: 20px;
 }
 
-
-div.textoindep > h2{
-       background-image: linear-gradient(to right, rgba(99, 26, 26, 0.692), transparent);
-    width: 400px;
+.lista ul li,
+.lancamentoslist ul li {
+    margin-top: 20px;
     margin-left: 20px;
-    padding: 20px;
 }
 
-section.partedireita{
+.centro {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: -120vh;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
+.centro img {
+    max-width: 550px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+.direita {
+    max-width: 300px;
+}
 
-div.textoindep > h2{
-     background-image: linear-gradient(to left, rgba(99, 26, 26, 0.692), transparent);
-    width: 400px;
-    margin-left: 30px;
-    padding: 20px;
-    margin-top: 40px;
+.direita h2 {
     font-family: 'rock';
     color: rgb(133, 128, 128);
-    font-size: 2.5em;
-    margin-top: -8%;
-    
-
+    background-image: linear-gradient(to left, rgba(99, 26, 26, 0.692), transparent);
+    padding: 20px;
 }
 
-div.textoindep{
-    padding: 10px;
+.direita p {
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    main.conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centro img {
+        max-width: 90%;
+    }
+
+    .centro{
+        margin: auto;
+    }
 }
