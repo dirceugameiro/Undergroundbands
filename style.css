@@ -65,6 +65,8 @@ main.conteudo {
     display: flex;
     flex-direction: column;
     gap: 20px;
+      flex: 1 1 300px; /* cresce, encolhe e largura mínima */
+    max-width: 330px;
 }
 
 .proxshw h2,
@@ -97,6 +99,8 @@ main.conteudo {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+      flex: 1 1 300px;
+    max-width: 330px;
 }
 
 .centro img {
@@ -106,7 +110,9 @@ main.conteudo {
     flex-shrink: 1;
 }
 .direita {
-    max-width: 300px;
+   
+      flex: 1 1 300px; 
+    max-width: 330px;
 }
 
 .direita h2 {
