@@ -31,13 +31,13 @@ nav>div.icon img{
 nav > a{
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(143, 135, 135, 0.596);
-    color: rgba(180, 166, 166, 0.822);
+    color: rgba(230, 222, 222, 0.822);
     font-size: 1.3em;
     font-family: 'cursive';
 }
 
 nav>a:hover{
-    color: rgba(255, 0, 0, 0.836);
+    color: rgba(202, 0, 0, 0.836);
 
     
 }
@@ -48,6 +48,7 @@ div.texto1{
     font-family: 'rock';
     margin-top: 30px;
     margin-bottom: 30px;
+    text-shadow: 1px 1px 1px rgba(87, 79, 79, 0.822);
 }
 
 div.foto{
