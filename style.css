@@ -163,6 +163,7 @@ div.gravacoes h2 {
     font-family: 'rock';
     margin-right: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.575);
+    max-width: 100%;
 }
 
 div.paragrafoindep {
@@ -175,6 +176,7 @@ div.paragrafoindep {
     margin-bottom: 100px;
     font-family: 'cursive';
     margin-right: 3px;
+    max-width: 100%;
 
 }
 
@@ -187,6 +189,7 @@ div.paragrafoindep {
     border-radius: 6px;
     font-family: 'cursive';
     margin-right: 3px;
+    max-width: 100%;
 }
 
 
@@ -205,4 +208,5 @@ div.contatos {
     flex-wrap: wrap;
     max-width:100%;
 }
+
 
