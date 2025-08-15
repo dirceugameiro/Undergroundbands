@@ -93,6 +93,7 @@ div.ultimoslancamentos {
     font-family: 'rock';
     margin-left: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.689);
+    max-width:100%;
 
 }
 
@@ -106,6 +107,7 @@ div.lancamentoslist {
     border-radius: 6px;
     font-family: 'cursive';
     margin-left: 3px;
+    max-width:100%;
 }
 
 
@@ -208,5 +210,6 @@ div.contatos {
     flex-wrap: wrap;
     max-width:100%;
 }
+
 
 
