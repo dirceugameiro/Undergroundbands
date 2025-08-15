@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -9,12 +9,13 @@
     src: url(DeathRockRegular.ttf);
 }
 
-body{
+body {
     background-color: black;
     width: 100%;
 }
+
 /*----------------------header--------------------*/
-nav{
+nav {
     display: flex;
     background-image: radial-gradient(rgba(150, 0, 0, 0.849), rgba(119, 1, 1, 0.644), rgba(68, 1, 1, 0.795));
     padding: 10px;
@@ -24,26 +25,32 @@ nav{
 
 
 }
-nav>div.icon img{
+
+nav>div.icon img {
     width: 60px;
     justify-self: flex-start;
     align-self: flex-start;
 }
-nav > a{
+
+nav>a {
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(143, 135, 135, 0.596);
     color: rgba(230, 222, 222, 0.822);
     font-size: 1.3em;
     font-family: 'cursive';
+    background-image: -moz-linear-gradient(to right, rgba(18, 18, 18, 0.212), rgba(52, 52, 52, 0.228), transparent);
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.336);
 }
 
-nav>a:hover{
+nav>a:hover {
     color: rgba(202, 0, 0, 0.836);
 
-    
+
 }
 
-div.texto1{
+div.texto1 {
     color: rgba(241, 226, 226, 0.836);
     text-align: center;
     font-family: 'rock';
@@ -52,41 +59,45 @@ div.texto1{
     text-shadow: 1px 1px 1px rgba(87, 79, 79, 0.822);
 }
 
-div.foto{
+div.foto {
     width: 100%;
     height: 600px;
     background-image: url(https://cdn.mos.cms.futurecdn.net/ZpER3PFWjCzfTA6F4uQuwP.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top ;
+    background-position: center top;
 }
 
 
 
-main.conteudo{
+main.conteudo {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
+
 /*------------------main esquerda----------------*/
-div.esquerdinha{
+div.esquerdinha {
     display: flex;
     color: white;
     flex-direction: column;
-    
-    
-    
+
+
+
 }
 
-div.proxshw, div.ultimoslancamentos{
+div.proxshw,
+div.ultimoslancamentos {
     background-image: linear-gradient(to right, rgb(167, 0, 0), rgba(95, 0, 0, 0.753), transparent);
     padding: 5px;
     font-family: 'rock';
     margin-left: 5px;
-    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.689);
+
 }
 
-div.lista, div.lancamentoslist{
+div.lista,
+div.lancamentoslist {
     border: 1px solid grey;
     padding: 10px;
     background-color: rgba(94, 87, 87, 0.26);
@@ -98,23 +109,23 @@ div.lista, div.lancamentoslist{
 }
 
 
-div.lista{
+div.lista {
     margin-bottom: 100px;
 }
 
-div.lista>ul>li{
-text-align: center;
-margin-left: 5px;
+div.lista>ul>li {
+    text-align: center;
+    margin-left: 5px;
 }
 
 
-div.lancamentoslist> ul> li{
+div.lancamentoslist>ul>li {
     text-align: center;
     margin-left: 5px;
 }
 
 /*--------------------MAIN DIREITA---------------*/
-div.meio{
+div.meio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,16 +134,19 @@ div.meio{
     box-shadow: 2px 2px 6px rgba(73, 0, 0, 0.5);
 }
 
-div.divulgacoes, .divulgacoes2{
+div.divulgacoes,
+.divulgacoes2 {
     width: 50vw;
-    border:1px solid pink;
+    border: 1px solid pink;
 }
-div.divulgacoes img, div.divulgacoes2 img{
+
+div.divulgacoes img,
+div.divulgacoes2 img {
     max-width: 100%;
 }
 
 
-div.direita{
+div.direita {
     overflow: hidden;
     display: flex;
     color: rgba(228, 228, 228, 0.897);
@@ -141,20 +155,22 @@ div.direita{
 }
 
 
-div.textoindep h2, div.gravacoes h2{
+div.textoindep h2,
+div.gravacoes h2 {
     background-image: linear-gradient(to left, rgb(167, 0, 0), rgba(95, 0, 0, 0.753), transparent);
     padding: 5px;
     text-align: end;
     font-family: 'rock';
     margin-right: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.575);
 }
 
-div.paragrafoindep{
+div.paragrafoindep {
     border: 1px solid grey;
     padding: 10px;
     background-color: rgba(94, 87, 87, 0.26);
     margin-top: 5px;
-    margin-bottom: 20px;
+
     border-radius: 6px;
     margin-bottom: 100px;
     font-family: 'cursive';
@@ -162,8 +178,8 @@ div.paragrafoindep{
 
 }
 
-.paragrafogravacoes{
-     border: 1px solid grey;
+.paragrafogravacoes {
+    border: 1px solid grey;
     padding: 10px;
     background-color: rgba(94, 87, 87, 0.26);
     margin-top: 5px;
@@ -174,21 +190,17 @@ div.paragrafoindep{
 }
 
 
-footer{
+footer {
     color: rgb(228, 214, 214);
 }
 
-div.contatos{
+div.contatos {
     display: flex;
     gap: 30px;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
-     background-image: radial-gradient(rgba(150, 0, 0, 0.849), rgba(119, 1, 1, 0.644), rgba(68, 1, 1, 0.795));
-     padding: 2px;
-     flex-wrap: wrap;
+    background-image: radial-gradient(rgba(150, 0, 0, 0.849), rgba(119, 1, 1, 0.644), rgba(68, 1, 1, 0.795));
+    padding: 2px;
+    flex-wrap: wrap;
 }
-
-
-
-
