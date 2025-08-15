@@ -72,6 +72,7 @@ footer>div.contatos {
     flex-wrap: nowrap;
 }
 
-div.contatos>h5.endereco {
+div.contatos>h5#endereco{
     display: none;
 }
+
