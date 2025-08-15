@@ -33,7 +33,7 @@ main.conteudo {
     flex-direction: column;
 
     gap: 25px;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 
 }
@@ -75,5 +75,6 @@ footer>div.contatos {
 div.contatos>h5#endereco {
     display: none;
 }
+
 
 
